@@ -1,0 +1,17 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+
+#include "MyProjectSportsWheelFront.h"
+
+UMyProjectSportsWheelFront::UMyProjectSportsWheelFront()
+{
+	WheelRadius = 39.0f;
+	WheelWidth = 35.0f;
+
+	// stiff damping so the body settles in one movement instead of wallowing
+	SuspensionDampingRatio = 0.8f;
+	FrictionForceMultiplier = 3.0f;
+
+	MaxBrakeTorque = 4500.0f;
+	MaxHandBrakeTorque = 6000.0f;
+}

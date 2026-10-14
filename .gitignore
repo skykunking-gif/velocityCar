@@ -1,0 +1,30 @@
+# Unreal が自動生成するもの
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# 書き出し結果・ビルドログ
+Packaged/
+Build/**/FileOpenOrder/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.sln
+*.slnx
+*.suo
+*.sdf
+*.VC.db
+*.opendb
+
+# Claude Code のローカル設定
+.claude/settings.local.json
+
+# macOS のゴミ
+.DS_Store
+__MACOSX/
+._*
